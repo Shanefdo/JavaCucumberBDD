@@ -41,7 +41,7 @@ public class LoginPage {
         clickOnLoginButton();
     }
 
-    public boolean checkLogoutLink(){
+    public boolean checkLogoutLink() {
         return driver.findElement(logoutLinkLocator).isDisplayed();
     }
 
